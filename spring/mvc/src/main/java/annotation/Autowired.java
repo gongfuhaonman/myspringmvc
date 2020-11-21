@@ -9,4 +9,5 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 public @interface Autowired {
 	String name();
+	String depend() default "null";
 }

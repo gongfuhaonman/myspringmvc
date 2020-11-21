@@ -4,7 +4,7 @@ import annotation.Controller;
 import annotation.RequestMapping;
 import annotation.RestController;
 import servlet.ModelAndView;
-@RestController
+@RestController(name = "testController2")
 
 public class TestController2 {
 	@RequestMapping(value="/test2.do")

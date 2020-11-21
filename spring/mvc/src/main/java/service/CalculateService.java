@@ -1,11 +1,11 @@
-package mymvc;
+package service;
 
 import java.util.Stack;
 
 import annotation.Component;
 
-@Component(name="calculateServlet")
-public class CalculateServlet {
+@Component(name="calculateService")
+public class CalculateService {
 	public static void main(String[] args) {
        // Scanner scanner = new Scanner(System.in);
        // String str = scanner.nextLine();
